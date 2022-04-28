@@ -3,13 +3,13 @@ SHELL := /bin/bash
 # components repos
 GODWOKEN_REPO := https://github.com/nervosnetwork/godwoken.git
 GODWOKEN_SCRIPTS_REPO := https://github.com/nervosnetwork/godwoken-scripts.git
-POLYJUICE_REPO := https://github.com/nervosnetwork/godwoken-polyjuice.git
+POLYJUICE_REPO := https://github.com/Flouse/polyjuice.git
 CLERKB_REPO := https://github.com/nervosnetwork/clerkb.git
 
 # components tags
 GODWOKEN_REF := refs/pull/645/head # https://github.com/nervosnetwork/godwoken/pull/645
 GODWOKEN_SCRIPTS_REF := v0.9.0 # https://github.com/nervosnetwork/godwoken-scripts/releases/tag/v0.9.0
-POLYJUICE_REF := v0.8.11
+POLYJUICE_REF := 4546bb88016f641e6744a79209fa9878f203aeb5
 CLERKB_REF := v0.4.0
 
 define prepare_repo
